@@ -1,0 +1,172 @@
+body.dark {
+    background: #111111;
+}
+
+
+/*---------------------------------------------*/
+
+body.dark div.top-area {
+    background: #222222;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark div.container.navigation {
+    background: #343D5B;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark nav.navbar.navbar-custom.navbar-fixed-top {
+    background: #343D5B;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark section.home-section.paddingtop-80 {
+    background: #222222;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark h4.h-light {
+    color: #C8C8C8;
+}
+
+body.dark h4.h-bold {
+    color: #C8C8C8;
+}
+
+body.dark h4.h-light {
+    color: #C8C8C8;
+}
+
+body.dark p {
+    color: #C8C8C8;
+}
+
+body.dark div.callaction.bg-gray {
+    background: #343D5B;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark section.home-section.paddingtop-40 {
+    background: #222222;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark h3 {
+    color: #C8C8C8;
+}
+
+body.dark section.home-section.nopadding.paddingtop-60 {
+    background: #222222;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark section.home-section.bg-gray.paddingbot-60 {
+    background: #222222;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark section.home-section.paddingbot-60 {
+    background: #343D5B;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark h2.h-bold {
+    color: #C8C8C8;
+}
+
+body.dark footer {
+    background: #222222;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark h5 {
+    color: #C8C8C8;
+}
+
+body.dark h2.h-bold {
+    color: #C8C8C8;
+}
+
+body.dark div.sub-footer {
+    background: #222222;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+
+/*---------------------------------------------*/
+
+body.dark nav a {
+    color: #C8C8C8;
+}
+
+body.dark nav a:hover {
+    color: #FEFEFE;
+}
+
+
+/* PARA EL SWITCH DE ENCENDIDO Y APAGADO*/
+
+.switch {
+    background: #343D5B;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: none;
+}
+
+.switch::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #F1F1F1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.switch.active {
+    background: orange;
+    color: #000;
+}
+
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+
+.switch span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+}
+
+body.dark .grid .card {
+    background: #222222;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
